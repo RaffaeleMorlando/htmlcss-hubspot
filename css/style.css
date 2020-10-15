@@ -76,12 +76,13 @@
 .nav-top-options-left {
   float: left;
   height: 100%;
-  line-height: 70px;
+  line-height: 80px;
 }
 .nav-top-options-left > ul > li {
   display: inline-block;
   padding-right: 10px;
   padding-top: 10px;
+
 }
 .nav-top-options-left > ul > li:first-child > a {
   border-right: 1px solid #2c3d51;
@@ -101,7 +102,7 @@
 }
 .nav-top-options-right > ul > li {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 0 15px;
 }
 
 .nav-top-options-right i {
