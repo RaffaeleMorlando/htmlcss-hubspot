@@ -28,10 +28,14 @@
 .bg-bluewood {
   background-color: #2c3d51;
 }
+.bg-lightblue {
+  background-color: #f5f8fa;
+}
 /* /COLORS */
 
 .container {
   width: 100%;
+  position: relative;
 }
 .container-mini {
   width: 90%;
@@ -51,9 +55,9 @@
 .row-3 {
   position: relative;
   width: 100%;
-  /* ATTENTION - CHANHE HEIGHT */
+  /* ATTENTION - CHANGE HEIGHT */
   height: 800px;
-  /* ATTENTION - CHANHE HEIGHT */
+  /* ATTENTION - CHANGE HEIGHT */
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -63,7 +67,7 @@
 
 .nav-menu {
   width: 100%;
-  height: 100%:
+  height: 100%;
 }
 .nav-top {
   width: 100%;
@@ -82,11 +86,14 @@
   display: inline-block;
   padding-right: 10px;
   padding-top: 10px;
-
 }
 .nav-top-options-left > ul > li:first-child > a {
   border-right: 1px solid #2c3d51;
   padding-right:  20px;
+}
+
+.nav-top-options-left a {
+  color: #2c3d51;
 }
 .nav-top-options-left i {
   padding-right: 5px;
@@ -115,7 +122,6 @@
   border: 1px solid rgb(255, 107, 80);
 }
 
-
 /* ROW 2------ */
 .logo-hubspot {
   display: inline-block;
@@ -143,6 +149,16 @@
   float: right;
   padding-left: 20px;
 }
+.nav-bottom-options-right span {
+  margin-right: 5px;
+}
+
+/* ---CHECK ICON OPTIONS----
+
+ .nav-bottom-options-right i {
+  vertical-align:baseline;
+}
+*/
 
 /* ROW 3 ------- */
 .header-bottom {
@@ -151,12 +167,6 @@
 .header-bottom-title {
   width: 30%;
   height: 50%;
-  /* position: absolute;
-  width: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: red; */
-  /* margin-top: 50px; */
 }
 .header-bottom-title h1 {
   margin: 20px 0;
@@ -170,3 +180,11 @@
   border-radius: 5px;
   border: none;
 }
+
+/* MAIN SECTION */
+.box-service {
+  width: 100%;
+  height: 341px;
+  border: 1px solid blue;
+}
+/* /MAIN SECTION */
