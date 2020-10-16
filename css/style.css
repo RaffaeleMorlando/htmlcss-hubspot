@@ -7,11 +7,12 @@
 }
 
 /* CLEARFIX */
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
+/* /CLEARFIX */
 
 /* COLORS BACKGROUND */
 .bg-white-smoke {
@@ -42,7 +43,8 @@
   margin: 0 auto;
   font-family: 'Nunito', sans-serif;
 }
-.row-1 {
+
+#row-1 {
   width: 100%;
   height: 82px;
   border-bottom: 2px solid #2c3d51;
@@ -51,12 +53,12 @@
   left: 0;
   z-index: 1;
 }
-.row-2 {
+#row-2 {
   width: 100%;
   height: 80px;
-  margin-top: 99px;
+  margin-top: 82px;
 }
-.row-3 {
+#row-3 {
   position: relative;
   width: 100%;
   height: 900px;
@@ -79,110 +81,112 @@
   width: 100%;
   height: 100%;
 }
-.nav-top {
+#nav-top {
   width: 100%;
 }
-.nav-bottom {
+#nav-bottom {
   width: 100%;
   height: 100%;
 }
 
-.nav-top-options-left {
+#nav-top-options-left {
   float: left;
   height: 100%;
   line-height: 80px;
 }
-.nav-top-options-left > ul > li {
+#nav-top-options-left > ul > li {
   display: inline-block;
   padding-right: 10px;
   padding-top: 10px;
 }
-.nav-top-options-left > ul > li:first-child > a {
+#nav-top-options-left > ul > li:first-child > a {
   border-right: 1px solid #2c3d51;
   padding-right:  20px;
 }
 
-.nav-top-options-left a {
+#nav-top-options-left a {
   color: #2c3d51;
-}
-.nav-top-options-left i {
-  padding-right: 5px;
-}
-.nav-top-options-left a {
   text-decoration: none;
 }
+#nav-top-options-left i {
+  padding-right: 5px;
+}
 
-.nav-top-options-right {
+#nav-top-options-right {
   float: right;
   height: 100%;
   line-height: 70px;
 }
-.nav-top-options-right > ul > li {
+#nav-top-options-right > ul > li {
   display: inline-block;
   padding: 0 15px;
 }
 
-.nav-top-options-right i {
+#nav-top-options-right i {
   color: #21afb2;
 }
-.nav-top-options-right button:first-of-type {
+#nav-top-options-right button:first-of-type {
   padding: 20px 30px;
   margin: 20px 0;
   border-radius: 5px;
   border: 1px solid rgb(255, 107, 80);
 }
+#nav-top-options-right button.bg-white {
+  color: rgb(255, 107, 80);
+}
 
-/* ROW 2------ */
-.logo-hubspot {
+/* ROW 2 */
+#logo-hubspot {
   display: inline-block;
   width: 50%;
   height: 80px;
   position: relative;
 }
-.logo-hubspot img {
+#logo-hubspot img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   padding-left: 10px
 }
 
-.nav-bottom-options-right {
+#nav-bottom-options-right {
   width: 50%;
   height: 80px;
   float: right;
 }
-/* .nav-bottom-options-right > ul {
-} */
-.nav-bottom-options-right > ul > li  {
+
+#nav-bottom-options-right > ul > li  {
   list-style: none;
   line-height: 80px;
   float: right;
   padding-left: 20px;
 }
-.nav-bottom-options-right span {
+#nav-bottom-options-right span {
   margin-right: 5px;
 }
+/* /ROW 2*/
 
-/* ROW 3 ------- */
-.header-bottom {
+/* ROW 3 */
+#header-bottom {
   padding-top: 10%;
 }
-.header-bottom-title {
+#header-bottom-title {
   width: 30%;
   height: 50%;
 }
-.header-bottom-title h1 {
+#header-bottom-title h1 {
   margin: 20px 0;
 }
-.header-bottom-title p {
+#header-bottom-title p {
   margin: 20px 0;
 }
-.header-bottom-title button {
+#header-bottom-title button {
   padding: 24px 34px;
   margin: 20px 0;
   border-radius: 5px;
   border: none;
 }
+/* /ROW 3 */
 
 /* MAIN SECTION */
 .box-service {
@@ -209,71 +213,71 @@
 }
 
 /* CRM - Card */
-.crm-row {
+#crm-row {
   border-radius: 5px;
-  box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.1);
 }
-.crm-container {
+#crm-container {
   width: 90%;
   margin: 0 auto;
 }
-.crm-section-logo {
+
+#crm-section-logo {
   display: inline-block;
   width: 300px;
   height: 300px;
 }
-.crm-logo {
+#crm-logo {
   text-align: center;
   margin: 20px 0;
 }
-.crm-section-logo img {
+#crm-section-logo img {
   width: 200px;
   height: 150px;
-
 }
-.crm-button {
+
+#crm-button {
   text-align: center;
 }
-.crm-section-logo button {
+#crm-section-logo button {
   padding: 20px 50px;
   border: none;
   border-radius: 5px;
   text-align: center;
 }
 
-.crm-section-text {
+#crm-section-text {
   display: inline-block;
   width: 60%;
   padding: 30px;
 }
-.crm-section-text > h3 {
+#crm-section-text > h3 {
   font-size: 30px;
   margin-bottom: 30px;
 }
-.crm-section-text > p {
+#crm-section-text > p {
   overflow: auto;
   margin-bottom: 20px;
 }
-.crm-section-text > h4 {
+#crm-section-text > h4 {
   font-weight: 700;
   margin-bottom: 20px;
   display: inline-block;
 }
-.crm-section-text .line {
+#crm-section-text #line {
   width: 60%;
   display: inline-block;
   border: 1px solid black;
   margin-left: 50px;
 }
-
-.crm-section-text > ul {
+#crm-section-text > ul {
   list-style: none;
 }
-.crm-section-text > ul > li {
+#crm-section-text > ul > li {
   display: inline-block;
   padding-right: 25px;
 }
-.crm-section-text i {
+#crm-section-text i {
   padding-right: 15px;
   color: rgb(255, 107, 80);
 }
