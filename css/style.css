@@ -253,7 +253,9 @@ button:hover {
   padding-top: 50px;
 }
 .box-service:first-child h2 {
+  font-size: 40px;
   padding: 5px 20px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .box-service:first-child p {
   padding: 20px 20px;
@@ -262,22 +264,16 @@ button:hover {
 /* CRM - Card */
 #crm-row {
   border-radius: 5px;
-  /* box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.1); */
   box-shadow:  0px 0px 11px 0px rgb(234, 240, 246);
 }
 #crm-container {
   width: 90%;
   margin: 0 auto;
-  /* position: relative; */
+  padding: 5%;
 }
 #crm-section-logo {
-  /* position: absolute;
-  top: 50%;
-  transform: translateY(-50%); */
-  display: inline-block;
+  float: left;
   width: 30%;
-  /* height: 300px; */
-  /* border: 1px solid red; */
 }
 #crm-logo {
   text-align: center;
@@ -299,11 +295,9 @@ button:hover {
 }
 
 #crm-section-text {
-  display: inline-block;
-  width: 50%;
+  float: left;
+  width: 70%;
   margin-top: 10px
-  /* padding: 30px; */
-  /* border: 1px solid blue; */
 }
 #crm-section-text > h3 {
   font-size: 30px;
@@ -340,6 +334,7 @@ button:hover {
 }
 /* /CRM CARD */
 
+/* PRODUCTS */
 #products-container {
 width: 100%;
 }
@@ -348,7 +343,7 @@ width: 100%;
   width: 30%;
   height: 900px;
   float: left;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
 }
 #products-container .product-card:nth-child(2) {
@@ -357,12 +352,45 @@ width: 100%;
 
 
 .product-icon-cont {
-  width: 90%;
   text-align: center;
 }
 .product-icon-cont img {
-  width: 50%;
-  height: 50%;
+  width: 170px;
+  height: 150px;
 }
 
+.product-card div:nth-child(2) {
+  width: 100%;
+  text-align: center;
+}
+.product-card div:nth-child(2) > h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 400px;
+  margin: 30px 0;
+}
+.product-card div:nth-child(2) > p {
+  margin-bottom: 50px;
+  text-align: left;
+  color: #4F6171;
+}
+
+.line-div {
+  border: 1px solid #f3f3f1;
+  margin-bottom: 50px;
+}
+
+.product-card h4 {
+  margin-bottom: 20px;
+}
+
+.product-card ul > li {
+  display: block;
+  text-align: left;
+  padding: 8px 0;
+}
+.product-card ul > li i {
+  padding-right: 10px;
+  color: #FF7A59;
+}
 /* /MAIN SECTION */
