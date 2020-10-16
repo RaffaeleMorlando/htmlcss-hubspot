@@ -449,7 +449,6 @@ width: 100%;
 /* COMMUNITY GRID */
 #community-grid {
   width: 100%;
-  height: 100px;
 }
 .box-grid {
   width: 25%;
@@ -475,30 +474,28 @@ border-right: none;
   width: 180px;
   height: 40px;
 }
-
 .icon-grid {
   height: 40px;
-  margin: 50px 0;
-}
-/* .icon-grid h2{
-  display: inline-block;
-} */
-
-.icon.grid-text {
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 .icon-grid-text h2  {
+  position: relative;
+  display: inline-block;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #ffffff;
 }
 
-/* .icon-grid-text h2::after {
+.icon-grid-text h2::after {
   content: "+";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 500;
-} */
+  font-size: 15px;
+  vertical-align: middle;
+}
+.icon-grid-text p {
+  color: #ffffff;
+}
 
 
 
