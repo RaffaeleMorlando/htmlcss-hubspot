@@ -44,6 +44,9 @@ font-family: 'Nunito Sans', sans-serif;
 .bg-lightblue {
   background-color: #f5f8fa;
 }
+.bg-gradient {
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+}
 /* /COLORS BACKGROUND */
 
 /* font-size */
@@ -215,7 +218,7 @@ button:hover {
 
 /* ROW 3 */
 #header-bottom {
-  padding-top: 5%;
+  padding-top: 2%;
 }
 #header-bottom-title {
   width: 30%;
@@ -404,5 +407,101 @@ width: 100%;
   /* padding: 0px 30px; */
   text-align: center;
   color: #ffffff;
+  text-decoration: none;
 }
+
+.space {
+  width: 100%;
+  height: 100px;
+}
+/* /PRODUCTS */
+
+/* COMMUNITY */
+#community {
+  width: 100%;
+  height: 1000px;
+  /* background-image: linear-gradient(45deg,#00a4bd,#00bda5); */
+}
+#community-title {
+  width: 100%;
+  padding-top: 100px;
+  margin-bottom: 80px;
+}
+#community-container {
+  width: 60%;
+  margin: 0 auto;
+}
+#community-container h2 {
+  font-size: 32px;
+  padding-bottom: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+#community-container p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* COMMUNITY GRID */
+#community-grid {
+  width: 100%;
+  height: 100px;
+}
+.box-grid {
+  width: 25%;
+  height: 300px;
+  border: 1px solid #ffffff;
+  border-top: none;
+  float: left;
+  text-align: center;
+}
+.box-grid:nth-child(1),
+.box-grid:nth-child(5) {
+  border-left: none;
+}
+.box-grid:nth-child(4),
+.box-grid:nth-child(8) {
+border-right: none;
+}
+.grid-bottom-row {
+  border-bottom: none;
+}
+
+#community-grid > .box-grid img {
+  width: 180px;
+  height: 40px;
+}
+
+.icon-grid {
+  height: 40px;
+  margin: 50px 0;
+}
+/* .icon-grid h2{
+  display: inline-block;
+} */
+
+.icon.grid-text {
+}
+.icon-grid-text h2  {
+}
+
+/* .icon-grid-text h2::after {
+  content: "+";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+} */
+
+
+
+/* /COMMUNITY */
+
 /* /MAIN SECTION */
