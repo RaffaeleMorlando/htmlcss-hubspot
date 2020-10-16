@@ -341,7 +341,6 @@ width: 100%;
 
 #products-container .product-card {
   width: 30%;
-  height: 900px;
   float: left;
   padding: 20px;
   border-radius: 5px;
@@ -392,5 +391,18 @@ width: 100%;
 .product-card ul > li i {
   padding-right: 10px;
   color: #FF7A59;
+}
+
+.button-column {
+  width: 150px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  margin: 30px auto;
+}
+
+.button-column a {
+  /* padding: 0px 30px; */
+  text-align: center;
+  color: #ffffff;
 }
 /* /MAIN SECTION */
