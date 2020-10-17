@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;700&family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&family=Nunito+Sans:wght@400;700&family=Nunito:wght@400;700&display=swap');
 
 /* font-family */
 
@@ -497,8 +497,65 @@ border-right: none;
   color: #ffffff;
 }
 
-
-
 /* /COMMUNITY */
+
+/* COSTUMERS */
+
+#costumers {
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+#costumers-title-container {
+  width: 40%;
+  float: left;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#costumers-title-container h2 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #2c3d51;
+  margin-bottom: 5px;
+}
+#costumers-title-container p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+#costumers-title-container #countries-number {
+  font-weight: bold;
+}
+
+#costumers-icon-container {
+  width: 60%;
+  float: right;
+}
+
+#costumers-icon-container img {
+  width: 100px;
+}
+.icon-costumer-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.icon-costumers-box {
+  position: relative;
+  width: 25%;
+  height: 100px;
+  float: left;
+}
+.icon-costumers-box:nth-child(5) {
+  clear: left;
+}
+
+
+
+
 
 /* /MAIN SECTION */
