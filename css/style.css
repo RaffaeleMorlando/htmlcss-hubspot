@@ -87,6 +87,23 @@ footer a {
 
 /* /link style */
 
+/* Buttons */
+.btn-orange:hover {
+  background-color: #ffbcac;
+  color: #fff;
+  border: 1px solid #ffbcac;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+ background-color: rgba(255, 107, 80, 0.1);
+}
+
+.cursor:hover {
+  cursor: pointer;
+}
+/* /Buttons */
+
 button:hover {
   cursor: pointer;
 }
