@@ -81,6 +81,9 @@ a:hover {
   box-shadow: 0 10px 50px -5px rgba(51,71,92,0.15);
   transform: scale(1.014);
 }
+
+
+
 /* /link style */
 
 button:hover {
@@ -615,7 +618,137 @@ border-right: none;
   margin-bottom: 30px;
 }
 
-
-
-
 /* /MAIN SECTION */
+
+/* FOOTER */
+
+/* FOOTER LINKS */
+#footer-top {
+  width: 100%;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+#footer-top .footer-left {
+  width: 40%;
+  float: left;
+}
+
+#footer-top .footer-left {
+  border-right: 1px solid #ffffff;
+}
+
+.footer-left h4,
+.footer-right h4 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 0;
+  color: #ffffff;
+}
+.footer-left .footer-list-link {
+  width: 50%;
+  float: left;
+}
+.footer-left .footer-list-link li a,
+.footer-right .footer-list-link li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  list-style: none;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+#footer-top .footer-right {
+  width: 60%;
+  float: left;
+}
+.footer-right .footer-list-link {
+  width: 20%;
+  float: left;
+  margin: 0 5%;
+}
+
+/* FOOTER SOCIAL */
+
+#footer-mid {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+#footer-mid-1 {
+  width: 20%;
+  border: 1px solid white;
+  float: left;
+}
+#footer-mid div:nth-child(2){
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  float: left;
+}
+#footer-mid-icon-wrapper {
+  text-align: center;
+}
+#footer-mid-icon-wrapper span {
+  margin: 0 2%;
+}
+#footer-mid-icon-wrapper span i {
+  width: 8%;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+#footer-mid > div:last-child {
+  width: 20%;
+  border: 1px solid white;
+  float: left;
+}
+
+/* FOOTER copyright */
+
+#footer-bottom {
+  margin-top: 50px;
+
+}
+#copyright {
+  width: 100%;
+  position: relative;
+}
+
+#copyright-logo-hubspot {
+  width: 100%;
+}
+
+#copyright-logo-hubspot img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#copyright p {
+  font-size: 10px;
+  color: #ffffff;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#copyright ul{
+  text-align: center;
+}
+#copyright ul > li {
+  font-size: 0;
+  list-style: none;
+  display: inline-block;
+}
+#copyright ul > li:first-child {
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+#copyright ul > li:nth-child(2) {
+  padding-left: 10px;
+}
+
+#copyright ul > li > a {
+  font-size: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+/* /FOOTER */
