@@ -287,6 +287,7 @@ button:hover {
 .box-service:first-child {
   width: 1000px;
   margin: 0 auto;
+  padding-bottom: 20px;
   text-align: center;
 }
 .box-service:first-child img {
@@ -300,6 +301,7 @@ button:hover {
   font-family: 'Nunito Sans', sans-serif;
 }
 .box-service:first-child p {
+  text-align: center;
   padding: 20px 20px;
 }
 
