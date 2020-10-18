@@ -697,12 +697,13 @@ border-right: none;
   width: 100%;
 }
 #footer-mid-1 {
-  width: 20%;
-  border: 1px solid white;
+  position: relative;
+  width: 30%;
+  height: 32px;
   float: left;
 }
 #footer-mid div:nth-child(2){
-  width: 50%;
+  width: 30%;
   margin-left: 5%;
   margin-right: 5%;
   float: left;
@@ -720,9 +721,18 @@ border-right: none;
 }
 
 #footer-mid > div:last-child {
-  width: 20%;
-  border: 1px solid white;
+  position: relative;
+  width: 30%;
+  height: 32px;
   float: left;
+}
+#footer-mid #footer-mid-1 > div ,
+#footer-mid > div:last-child > div {
+  position: absolute;
+  width: 100%;
+  border: 1px solid white;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* FOOTER copyright */
@@ -732,8 +742,8 @@ border-right: none;
 
 }
 #copyright {
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 
 #copyright-logo-hubspot {
@@ -748,18 +758,18 @@ border-right: none;
 
 #copyright p {
   font-size: 10px;
-  color: #ffffff;
-  padding-top: 40px;
   text-align: center;
+  padding-top: 40px;
+  color: #ffffff;
 }
 
 #copyright ul{
   text-align: center;
 }
 #copyright ul > li {
+  display: inline-block;
   font-size: 0;
   list-style: none;
-  display: inline-block;
 }
 #copyright ul > li:first-child {
   border-right: 1px solid white;
