@@ -107,11 +107,13 @@ footer a:hover{
   background-color: #ffbcac;
   color: #fff;
   border: 1px solid #ffbcac;
+  transition: 0.4s ease-in-out;
   cursor: pointer;
 }
 
 .btn-white:hover {
  background-color: rgba(255, 107, 80, 0.1);
+ transition: 0.4s ease-in-out;
 }
 
 .cursor:hover {
