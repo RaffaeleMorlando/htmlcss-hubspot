@@ -33,19 +33,24 @@ font-family: 'Nunito Sans', sans-serif;
 .bg-white-smoke {
   background-color: rgb(245, 249, 253);
 }
+
 .bg-white {
   background-color: #ffffff;
 }
+
 .bg-orange {
   background-color: rgb(255, 107, 80);
   color: #fff;
 }
+
 .bg-bluewood {
   background-color: #2c3d51;
 }
+
 .bg-lightblue {
   background-color: #f5f8fa;
 }
+
 .bg-gradient {
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
@@ -65,6 +70,7 @@ p {
 .medium-size {
   font-size: 20px;
 }
+
 .small-size {
   font-size: 14px;
 }
@@ -75,12 +81,11 @@ header a {
   text-decoration: none;
   color: #2c3d51;
 }
+
 a:hover {
   text-decoration: underline;
   color: #007a8c;
 }
-
-/* ********ATTENTION******** */
 
 footer a {
   text-decoration: none;
@@ -93,8 +98,6 @@ footer a:hover{
   color: #20e6e6;
 }
 
-/* ********ATTENTION******** */
-
 .card:hover {
   box-shadow: 0 10px 50px -5px rgba(51,71,92,0.15);
   transform: scale(1.014);
@@ -103,7 +106,7 @@ footer a:hover{
 
 /* /link style */
 
-/* Buttons */
+/* BUTTONS */
 .btn-orange:hover {
   background-color: #ffbcac;
   color: #fff;
@@ -120,26 +123,27 @@ footer a:hover{
 .cursor:hover {
   cursor: pointer;
 }
-/* /Buttons */
 
 button:hover {
   cursor: pointer;
 }
 
-/* /Buttons */
+/* /BUTTONS */
 
+/* BASIC STRUCTURE */
 .container {
   width: 100%;
   position: relative;
   color: #2c3d51;
 }
+
 .container-mini {
   width: 90%;
   height: 100%;
   margin: 0 auto;
   font-family: 'Nunito', sans-serif;
 }
-
+/* BASIC STRUCTURE */
 
 #row-1 {
   width: 100%;
@@ -150,11 +154,13 @@ button:hover {
   left: 0;
   z-index: 1;
 }
+
 #row-2 {
   width: 100%;
   height: 80px;
   margin-top: 82px;
 }
+
 #row-3 {
   position: relative;
   width: 100%;
@@ -164,6 +170,7 @@ button:hover {
   background-repeat: no-repeat;
   background-position: top right;
 }
+
 #row-3::after {
   position: absolute;
   content: "";
@@ -181,9 +188,11 @@ button:hover {
 .nav-menu {
   width: 100%;
 }
+
 #nav-top {
   width: 100%;
 }
+
 #nav-bottom {
   width: 100%;
 }
@@ -192,14 +201,17 @@ button:hover {
   float: left;
   line-height: 82px;
 }
+
 #nav-top-options-left > ul > li {
   display: inline-block;
   padding-right: 10px;
 }
+
 #nav-top-options-left > ul > li:first-child > a {
   border-right: 1px solid #2c3d51;
   padding-right:  20px;
 }
+
 #nav-top-options-left i {
   padding-right: 5px;
 }
@@ -208,21 +220,26 @@ button:hover {
   float: right;
   line-height: 82px;
 }
+
 #nav-top-options-right > ul > li {
   display: inline-block;
   padding: 0 10px;
 }
+
 #nav-top-options-right > ul > li:nth-child(3) {
   padding-right: 0;
 }
+
 #nav-top-options-right i {
   color: #21afb2;
 }
+
 #nav-top-options-right button {
   padding: 10px 10px;
   border-radius: 5px;
   border: 1px solid rgb(255, 107, 80);
 }
+
 #nav-top-options-right button.bg-white {
   color: rgb(255, 107, 80);
 }
@@ -234,6 +251,7 @@ button:hover {
   height: 80px;
   position: relative;
 }
+
 #logo-hubspot img {
   position: absolute;
   top: 50%;
@@ -253,6 +271,7 @@ button:hover {
   float: right;
   padding-left: 20px;
 }
+
 #nav-bottom-options-right span {
   margin-right: 5px;
 }
@@ -262,16 +281,20 @@ button:hover {
 #header-bottom {
   padding-top: 2%;
 }
+
 #header-bottom-title {
   width: 30%;
   height: 50%;
 }
+
 #header-bottom-title h1 {
   margin: 20px 0;
 }
+
 #header-bottom-title p {
   margin: 20px 0;
 }
+
 #header-bottom-title button {
   padding: 24px 34px;
   margin: 20px 0;
@@ -293,16 +316,19 @@ button:hover {
   padding-bottom: 20px;
   text-align: center;
 }
+
 .box-service:first-child img {
   width: 300px;
   height: 300px;
   padding-top: 50px;
 }
+
 .box-service:first-child h2 {
   font-size: 40px;
   padding: 5px 20px;
   font-family: 'Nunito Sans', sans-serif;
 }
+
 .box-service:first-child p {
   text-align: center;
   padding: 20px 20px;
@@ -313,18 +339,22 @@ button:hover {
   border-radius: 5px;
   box-shadow:  0px 0px 11px 0px rgb(234, 240, 246);
 }
+
 #crm-container {
   width: 90%;
   margin: 0 auto;
   padding: 5%;
 }
+
 #crm-section-logo {
   float: left;
   width: 30%;
 }
+
 #crm-logo {
   text-align: center;
 }
+
 #crm-section-logo img {
   width: 200px;
   height: 150px;
@@ -333,6 +363,7 @@ button:hover {
 #crm-button {
   text-align: center;
 }
+
 #crm-section-logo button {
   padding: 20px 50px;
   border: none;
@@ -345,21 +376,26 @@ button:hover {
   width: 70%;
   margin-top: 10px
 }
+
 #crm-section-text > h3 {
   font-size: 30px;
   margin-bottom: 30px;
   font-family: 'Montserrat', sans-serif;
 }
+
 #crm-section-text > p {
-  overflow: auto;
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
   margin-bottom: 20px;
-  color: #6d7b8a;
+  color: #4F6171;
 }
+
 #crm-section-text > h4 {
   font-weight: 700;
   margin-bottom: 30px;
   display: inline-block;
 }
+
 #crm-section-text #line {
   width: 50%;
   display: inline-block;
@@ -367,13 +403,16 @@ button:hover {
   vertical-align: middle;
   margin-left: 50px;
 }
+
 #crm-section-text > ul {
   list-style: none;
 }
+
 #crm-section-text > ul > li {
   display: inline-block;
   padding-right: 25px;
 }
+
 #crm-section-text i {
   padding-right: 15px;
   color: rgb(255, 107, 80);
@@ -382,7 +421,7 @@ button:hover {
 
 /* PRODUCTS */
 #products-container {
-width: 100%;
+  width: 100%;
 }
 
 #products-container .product-card {
@@ -391,6 +430,7 @@ width: 100%;
   padding: 20px;
   border-radius: 5px;
 }
+
 #products-container .product-card:nth-child(2) {
   margin: 0 5%;
 }
@@ -399,6 +439,7 @@ width: 100%;
 .product-icon-cont {
   text-align: center;
 }
+
 .product-icon-cont img {
   width: 170px;
   height: 150px;
@@ -408,12 +449,14 @@ width: 100%;
   width: 100%;
   text-align: center;
 }
+
 .product-card div:nth-child(2) > h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   font-weight: 700;
   margin: 30px 0;
 }
+
 .product-card div:nth-child(2) > p {
   margin-bottom: 50px;
   text-align: left;
@@ -434,6 +477,7 @@ width: 100%;
   text-align: left;
   padding: 8px 0;
 }
+
 .product-card ul > li i {
   padding-right: 10px;
   color: #FF7A59;
@@ -460,15 +504,18 @@ width: 100%;
   width: 100%;
   height: 1000px;
 }
+
 #community-title {
   width: 100%;
   padding-top: 100px;
   margin-bottom: 80px;
 }
+
 #community-container {
   width: 60%;
   margin: 0 auto;
 }
+
 #community-container h2 {
   font-size: 32px;
   padding-bottom: 20px;
@@ -476,6 +523,7 @@ width: 100%;
   text-align: center;
   color: #ffffff;
 }
+
 #community-container p {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
@@ -488,6 +536,7 @@ width: 100%;
 #community-grid {
   width: 100%;
 }
+
 .box-grid {
   width: 25%;
   height: 300px;
@@ -496,14 +545,17 @@ width: 100%;
   float: left;
   text-align: center;
 }
+
 .box-grid:nth-child(1),
 .box-grid:nth-child(5) {
   border-left: none;
 }
+
 .box-grid:nth-child(4),
 .box-grid:nth-child(8) {
-border-right: none;
+  border-right: none;
 }
+
 .grid-bottom-row {
   border-bottom: none;
 }
@@ -512,11 +564,13 @@ border-right: none;
   width: 180px;
   height: 40px;
 }
+
 .icon-grid {
   height: 40px;
   margin-top: 80px;
   margin-bottom: 20px;
 }
+
 .icon-grid-text h2  {
   position: relative;
   display: inline-block;
@@ -531,6 +585,7 @@ border-right: none;
   font-size: 15px;
   vertical-align: middle;
 }
+
 .icon-grid-text p {
   color: #ffffff;
 }
@@ -545,6 +600,7 @@ border-right: none;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 #costumers-title-container {
   width: 40%;
   float: left;
@@ -552,15 +608,18 @@ border-right: none;
   top: 50%;
   transform: translateY(-50%);
 }
+
 #costumers-title-container h2 {
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
   color: #2c3d51;
   margin-bottom: 5px;
 }
+
 #wrap-text-costumers {
   width: 70%;
 }
+
 #costumers-title-container p {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -579,6 +638,7 @@ border-right: none;
 #costumers-icon-container img {
   width: 130px;
 }
+
 .icon-costumer-wrapper {
   position: absolute;
   top: 50%;
@@ -592,6 +652,7 @@ border-right: none;
   height: 100px;
   float: left;
 }
+
 .icon-costumers-box:nth-child(5) {
   clear: left;
 }
@@ -601,19 +662,22 @@ border-right: none;
   width: 100%;
   margin-top:  20px;
 }
+
 #cta-title {
   width: 50%;
   float: left;
-
 }
+
 #cta-title h2 {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 20px;
 }
+
 #cta-title p {
   margin-bottom: 20px;
 }
+
 #cta-button-box {
   width: 250px;
   padding: 30px 30px;
@@ -621,11 +685,13 @@ border-right: none;
   text-align: center;
   margin-bottom: 20px;
 }
+
 #cta-button-box a {
   text-decoration: none;
   color: #ffffff;
   font-weight: bold;
 }
+
 #cta-title p:last-child {
   font-size: 13px;
   font-weight: lighter;
@@ -638,9 +704,11 @@ border-right: none;
   float: left;
   position: relative;
 }
+
 #cta-icon-wrapper {
   width: 100%;
 }
+
 #cta-icon img {
   height: 420px;
   position: absolute;
@@ -663,6 +731,7 @@ border-right: none;
   padding-top: 30px;
   margin-bottom: 40px;
 }
+
 #footer-top .footer-left {
   width: 40%;
   float: left;
@@ -678,10 +747,12 @@ border-right: none;
   margin: 20px 0;
   color: #ffffff;
 }
+
 .footer-left .footer-list-link {
   width: 50%;
   float: left;
 }
+
 .footer-left .footer-list-link li a,
 .footer-right .footer-list-link li a {
   font-family: 'Montserrat', sans-serif;
@@ -696,6 +767,7 @@ border-right: none;
   width: 60%;
   float: left;
 }
+
 .footer-right .footer-list-link {
   width: 20%;
   float: left;
@@ -707,24 +779,29 @@ border-right: none;
 #footer-mid {
   width: 100%;
 }
+
 #footer-mid-1 {
   position: relative;
   width: 30%;
   height: 32px;
   float: left;
 }
+
 #footer-mid div:nth-child(2){
   width: 30%;
   margin-left: 5%;
   margin-right: 5%;
   float: left;
 }
+
 #footer-mid-icon-wrapper {
   text-align: center;
 }
+
 #footer-mid-icon-wrapper span {
   margin: 0 2%;
 }
+
 #footer-mid-icon-wrapper span i {
   width: 8%;
   font-size: 30px;
@@ -737,6 +814,7 @@ border-right: none;
   height: 32px;
   float: left;
 }
+
 #footer-mid #footer-mid-1 > div ,
 #footer-mid > div:last-child > div {
   position: absolute;
@@ -752,6 +830,7 @@ border-right: none;
   margin-top: 50px;
 
 }
+
 #copyright {
   position: relative;
   width: 100%;
@@ -778,16 +857,19 @@ border-right: none;
   text-align: center;
   font-size: 0;
 }
+
 #copyright ul > li {
   display: inline-block;
   font-size: 0;
   list-style: none;
 }
+
 #copyright ul > li:first-child {
   border-right: 1px solid white;
   padding-left: 10px;
   padding-right: 10px;
 }
+
 #copyright ul > li:nth-child(2) {
   padding-left: 10px;
 }
