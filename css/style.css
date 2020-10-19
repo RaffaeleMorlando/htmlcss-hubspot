@@ -692,12 +692,6 @@ button:hover {
   font-weight: bold;
 }
 
-#cta-title p:last-child {
-  font-size: 13px;
-  font-weight: lighter;
-}
-
-
 #cta-icon {
   width: 50%;
   height: 420px;
