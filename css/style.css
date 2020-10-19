@@ -948,6 +948,10 @@ button:hover {
   height: 60%;
   background-color: #ffffff;
 }
+.chat-screen img {
+  width: 90%;
+  height: 350px;
+}
 /*-------- CHAT SCREEN */
 
 /* CHAT TEXT-BOX */
