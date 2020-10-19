@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&family=Nunito+Sans:wght@400;700&family=Nunito:wght@400;700&display=swap');
 
-/* font-family */
-/*
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Nunito Sans', sans-serif;
-*/
-/* font-family */
-
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -89,9 +81,9 @@ a:hover {
 
 .footer-left .footer-list-link li a:hover,
 .footer-right .footer-list-link li a:hover,
-#footer-mid-icon-wrapper span i:hover {
-  /* color: #2299a8; */
-  color: #007a8c;
+#footer-mid-icon-wrapper span i:hover,
+#copyright ul > li > a:hover {
+  color: #7fd1de;
 }
 
 #nav-top-options-right li > i.fa-search:hover {
@@ -104,20 +96,23 @@ a:hover {
   transition: 0.4s ease-in-out;
 }
 
+.grey-font {
+  color: #cbd6e2;
+}
 /* /link style */
 
 /* BUTTONS */
 .btn-orange:hover {
   background-color: #ffbcac;
   color: #fff;
-  border: 1px solid #ffbcac;
+  border: 1px solid #fe7655;
   transition: 0.4s ease-in-out;
   cursor: pointer;
 }
 
 .btn-white:hover {
- background-color: rgba(255, 107, 80, 0.1);
- transition: 0.4s ease-in-out;
+  background-color: rgba(255, 107, 80, 0.1);
+  transition: 0.4s ease-in-out;
 }
 
 .cursor:hover {
@@ -580,7 +575,7 @@ button:hover {
   color: #ffffff;
 }
 
-.icon-grid-text h2::after {
+.icon-grid-text h2.plus-content::after {
   content: "+";
   font-size: 15px;
   vertical-align: middle;
@@ -732,7 +727,7 @@ button:hover {
 }
 
 #footer-top .footer-left {
-  border-right: 1px solid #ffffff;
+  border-right: 1px solid #cbd6e2;;
 }
 
 .footer-left h4,
@@ -755,7 +750,7 @@ button:hover {
   list-style: none;
   margin-bottom: 10px;
   text-decoration: none;
-  color: #ffffff;
+  color: #cbd6e2;
 }
 
 #footer-top .footer-right {
@@ -800,7 +795,7 @@ button:hover {
 #footer-mid-icon-wrapper span i {
   width: 8%;
   font-size: 30px;
-  color: #ffffff;
+  color: #cbd6e2;
 }
 
 #footer-mid > div:last-child {
@@ -814,7 +809,7 @@ button:hover {
 #footer-mid > div:last-child > div {
   position: absolute;
   width: 100%;
-  border: 1px solid white;
+  border: 1px solid #cbd6e2;;
   top: 50%;
   transform: translateY(-50%);
 }
