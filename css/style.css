@@ -52,12 +52,14 @@
 h1 {
   font-size: 48px;
   font-family: 'Montserrat', sans-serif;
+  margin: 20px 0;
 }
 
 p {
   line-height: 28px;
   font-family: 'Nunito Sans', sans-serif;
 }
+
 
 .medium-size {
   font-size: 20px;
@@ -105,7 +107,6 @@ a:hover {
 .btn-orange:hover {
   background-color: #ffbcac;
   color: #fff;
-  border: 1px solid #fe7655;
   transition: 0.4s ease-in-out;
   cursor: pointer;
 }
@@ -282,9 +283,9 @@ button:hover {
   height: 50%;
 }
 
-#header-bottom-title h1 {
+/* #header-bottom-title h1 {
   margin: 20px 0;
-}
+} */
 
 #header-bottom-title p {
   margin: 20px 0;
@@ -707,7 +708,7 @@ button:hover {
 }
 
 .main-section.bg-white {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 /* /MAIN SECTION */
@@ -718,7 +719,7 @@ button:hover {
 #footer-top {
   width: 100%;
   padding-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 #footer-top .footer-left {
@@ -734,7 +735,7 @@ button:hover {
 .footer-right h4 {
   font-family: 'Montserrat', sans-serif;
   margin: 20px 0;
-  color: #ffffff;
+  color: #cbd6e2;
 }
 
 .footer-left .footer-list-link {
