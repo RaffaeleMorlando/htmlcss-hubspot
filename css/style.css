@@ -886,7 +886,6 @@ button:hover {
 /* CHAT WIDGET */
 #widget-open {
   width: 500px;
-  /* height: 800px; */
   position: fixed;
   bottom: 0;
   right: 0;
@@ -898,7 +897,7 @@ button:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
 }
 
- /*------- CHAT HEADER */
+ /* CHAT HEADER */
 .chat-header {
   height: 20%;
   position: relative;
@@ -940,10 +939,10 @@ button:hover {
 }
 
 
- /*------- /CHAT HEADER */
+ /* /CHAT HEADER */
 
 
-/*-------- CHAT SCREEN */
+/* CHAT SCREEN */
 .chat-screen {
   height: 60%;
   background-color: #ffffff;
@@ -952,7 +951,7 @@ button:hover {
   width: 90%;
   height: 350px;
 }
-/*-------- CHAT SCREEN */
+/* CHAT SCREEN */
 
 /* CHAT TEXT-BOX */
 .chat-options {
@@ -978,7 +977,7 @@ button:hover {
   background-color: rgb(234, 240, 246);
   border: 1px solid lightgrey;
   border-radius: 4px;
-  color: rgb(176, 193, 212);;
+  color: rgb(176, 193, 212);
 }
 .option-2 {
   float: right;
@@ -1000,7 +999,8 @@ button:hover {
   height: 80px;
   float: right;
   border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px,
+              rgba(0, 0, 0, 0.2) 0px 2px 24px;
   margin-right: 20px;
   margin-bottom: 10px;
   background-color: rgb(66, 91, 118)
