@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  position: relative;
+}
+
 /* CLEARFIX */
 .clearfix::after {
   content: "";
@@ -70,7 +74,7 @@ p {
 }
 /* /font-size */
 
-/* link style */
+/* Hover stlye*/
 a {
   text-decoration: none;
   color: #2c3d51;
@@ -83,8 +87,12 @@ a:hover {
 
 .footer-left .footer-list-link li a:hover,
 .footer-right .footer-list-link li a:hover,
-#footer-mid-icon-wrapper span i:hover,
 #copyright ul > li > a:hover {
+  color: #7fd1de;
+  text-decoration: underline;
+}
+
+#footer-mid-icon-wrapper span i:hover {
   color: #7fd1de;
 }
 
@@ -101,7 +109,8 @@ a:hover {
 .grey-font {
   color: #cbd6e2;
 }
-/* /link style */
+/* /Hover stlye*/
+
 
 /* BUTTONS */
 .btn-orange:hover {
@@ -141,7 +150,7 @@ button:hover {
 }
 /* BASIC STRUCTURE */
 
-#row-1 {
+#header-row-1 {
   width: 100%;
   height: 82px;
   border-bottom: 2px solid #2c3d51;
@@ -151,13 +160,13 @@ button:hover {
   z-index: 1;
 }
 
-#row-2 {
+#header-row-2 {
   width: 100%;
   height: 80px;
   margin-top: 82px;
 }
 
-#row-3 {
+#header-row-3 {
   position: relative;
   width: 100%;
   height: 695px;
@@ -167,7 +176,7 @@ button:hover {
   background-position: top right;
 }
 
-#row-3::after {
+#header-row-3::after {
   position: absolute;
   content: "";
   bottom: 0;
@@ -179,12 +188,11 @@ button:hover {
   border-bottom: 2px solid #2c3d51;
 }
 
-/* ---------- */
 
+/* /NAVS */
 .nav-menu {
   width: 100%;
 }
-
 #nav-top {
   width: 100%;
 }
@@ -192,6 +200,10 @@ button:hover {
 #nav-bottom {
   width: 100%;
 }
+
+/* NAVS */
+
+/* NAVBAR TOP - ROW 1 */
 
 #nav-top-options-left {
   float: left;
@@ -239,8 +251,9 @@ button:hover {
 #nav-top-options-right button.bg-white {
   color: rgb(255, 107, 80);
 }
+/* /NAVBAR TOP - ROW 1 */
 
-/* ROW 2 */
+/* NAVBAR MID - ROW 2 */
 #logo-hubspot {
   display: inline-block;
   width: 50%;
@@ -271,33 +284,29 @@ button:hover {
 #nav-bottom-options-right span {
   margin-right: 5px;
 }
-/* /ROW 2*/
+/* /NAVBAR MID - ROW 2 */
 
-/* ROW 3 */
-#header-bottom {
+/* JUMBOTRON*/
+#jumbotron {
   padding-top: 2%;
 }
 
-#header-bottom-title {
+#jumbotron-title {
   width: 30%;
   height: 50%;
 }
 
-/* #header-bottom-title h1 {
-  margin: 20px 0;
-} */
-
-#header-bottom-title p {
+#jumbotron-title p {
   margin: 20px 0;
 }
 
-#header-bottom-title button {
+#jumbotron-title button {
   padding: 24px 34px;
   margin: 20px 0;
   border-radius: 5px;
   border: none;
 }
-/* /ROW 3 */
+/* /JUMBOTRON */
 
 /* MAIN SECTION */
 .box-service {
@@ -358,6 +367,7 @@ button:hover {
 
 #crm-button {
   text-align: center;
+  margin-top: 50px;
 }
 
 #crm-section-logo button {
@@ -872,3 +882,146 @@ button:hover {
   color: #ffffff;
 }
 /* /FOOTER */
+
+/* CHAT WIDGET */
+#widget {
+  width: 500px;
+  /* height: 800px; */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.chat {
+  width: 80%;
+  height: 500px;
+}
+
+ /*------- CHAT HEADER */
+.chat-header {
+  height: 20%;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: rgb(66, 91, 118);
+}
+.chat-header-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hubbot-back-icon,
+.hubbot-icon,
+.hubbot-title {
+  float: left;
+  margin-left: 20px;
+}
+
+.chat-header .hubbot-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.hubbot-back-icon i,
+.hubbot-title h5 {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 10px 0;
+}
+.hubbot-title h5 {
+  font-family: 'Nunito' , sans-serif;
+}
+
+.hubbot-back-icon i:hover {
+  cursor: pointer;
+}
+
+
+ /*------- /CHAT HEADER */
+
+
+/*-------- CHAT SCREEN */
+.chat-screen {
+  height: 60%;
+  background-color: #ffffff;
+}
+/*-------- CHAT SCREEN */
+
+/* CHAT TEXT-BOX */
+.chat-options {
+  width: 100%;
+  height: 20%;
+  position: relative;
+  border-top: 2px solid lightgrey;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.chat-options-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text-option {
+  width: 80%;
+  float: left;
+  padding: 15px 10px;
+  margin-left: 20px;
+  background-color: rgb(234, 240, 246);
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  color: rgb(176, 193, 212);;
+}
+.option-2 {
+  float: right;
+  font-size: 30px;
+  padding-right: 10px;
+  color: lightgrey;
+}
+/* /CHAT TEXT-BOX */
+
+/* CHAT BUTTON */
+.button-chat {
+  width: 100%;
+  height: 80px;
+}
+
+.circle {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  float: right;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(66, 91, 118)
+}
+
+.circle:hover {
+  cursor: pointer;
+}
+
+.circle i {
+  font-size: 40px;
+  color: #ffffff;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-40%,-40%);
+  border: 3px solid rgb(66, 91, 118);
+}
+
+.circle .i-2 {
+  font-size: 40px;
+  color: #ffffff;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-60%,-60%);
+}
+/* /CHAT BUTTON */
+
+/* /CHAT WIDGET */
