@@ -1050,7 +1050,10 @@ button:hover {
 }
 
 .widget-initial-message {
-  position: relative;
+  margin-right: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 100px;
   width: 70%;
   height: 150px;
   background-color: white;
@@ -1058,6 +1061,7 @@ button:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px,
               rgba(0, 0, 0, 0.2) 0px 2px 24px;
 }
+
 .widget-initial-message .hubbot-icon {
   position: absolute;
   bottom: 120px;
