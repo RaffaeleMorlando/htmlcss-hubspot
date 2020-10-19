@@ -884,7 +884,7 @@ button:hover {
 /* /FOOTER */
 
 /* CHAT WIDGET */
-#widget {
+#widget-open {
   width: 500px;
   /* height: 800px; */
   position: fixed;
@@ -919,7 +919,8 @@ button:hover {
   margin-left: 20px;
 }
 
-.chat-header .hubbot-icon img {
+.chat-header .hubbot-icon img,
+.widget-initial-message .hubbot-icon img {
   width: 50px;
   height: 50px;
 }
@@ -1023,6 +1024,64 @@ button:hover {
   left: 60%;
   transform: translate(-60%,-60%);
 }
+
+.circle .fas.fa-times {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 /* /CHAT BUTTON */
+
+
+
+/* WIDGET-MESSAGE */
+
+#widget-closed {
+  width: 450px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.widget-initial-message {
+  position: relative;
+  width: 70%;
+  height: 150px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px,
+              rgba(0, 0, 0, 0.2) 0px 2px 24px;
+}
+.widget-initial-message .hubbot-icon {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-right: 30px;
+}
+
+.widget-text-message {
+  width: 70%;
+  margin: 0 auto;
+}
+.widget-initial-message p {
+  text-align: left;
+  padding-top: 30px;
+}
+
+.widget-initial-message .close-message-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 10px;
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: lightgrey;
+}
+
+/* WIDGET-MESSAGE */
 
 /* /CHAT WIDGET */
