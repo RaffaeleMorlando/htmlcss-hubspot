@@ -552,15 +552,14 @@ button:hover {
   text-align: center;
 }
 
-.box-grid:nth-child(1),
-.box-grid:nth-child(5) {
+.box-grid:nth-of-type(2n+1) {
   border-left: none;
 }
 
-.box-grid:nth-child(4),
-.box-grid:nth-child(8) {
+.box-grid:nth-of-type(4n+4) {
   border-right: none;
 }
+
 
 .grid-bottom-row {
   border-bottom: none;
@@ -643,6 +642,8 @@ button:hover {
 
 #costumers-icon-container img {
   width: 130px;
+  /* max-width: 130px; */
+
 }
 
 .icon-costumer-wrapper {
